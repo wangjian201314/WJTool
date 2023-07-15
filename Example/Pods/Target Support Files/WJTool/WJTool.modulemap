@@ -1,0 +1,6 @@
+framework module WJTool {
+  umbrella header "WJTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

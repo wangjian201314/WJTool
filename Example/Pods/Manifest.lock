@@ -1,0 +1,16 @@
+PODS:
+  - WJTool (0.1.0)
+
+DEPENDENCIES:
+  - WJTool (from `../`)
+
+EXTERNAL SOURCES:
+  WJTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WJTool: a8683e2b6f379ffdbc453a65db4bc26f39360f85
+
+PODFILE CHECKSUM: 4d1632535c3bff299e889f542ce4814d5045cbf7
+
+COCOAPODS: 1.11.3

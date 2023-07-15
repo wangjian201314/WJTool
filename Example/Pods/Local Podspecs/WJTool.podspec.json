@@ -1,0 +1,22 @@
+{
+  "name": "WJTool",
+  "version": "0.1.0",
+  "summary": "A short description of WJTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangjian201314/WJTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangjian": "2576175431@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wangjian201314/WJTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WJTool/Classes/**/*"
+}

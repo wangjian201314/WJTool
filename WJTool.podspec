@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wangjian/WJTool'
+  s.homepage         = 'https://github.com/wangjian201314/WJTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangjian' => '2576175431@qq.com' }
-  s.source           = { :git => 'https://github.com/wangjian/WJTool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wangjian201314/WJTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

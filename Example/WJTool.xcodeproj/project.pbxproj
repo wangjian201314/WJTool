@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BAD055EEFADFE821B92115 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		131B7BFF476F528973CF5734 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		00BAD055EEFADFE821B92115 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		131B7BFF476F528973CF5734 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		41F3A1793FAC255A5BC9EF37 /* Pods-WJTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJTool_Example.release.xcconfig"; path = "Target Support Files/Pods-WJTool_Example/Pods-WJTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4F17C53F9216DB31B132927D /* Pods-WJTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WJTool_Tests/Pods-WJTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5118731139FF45D019795842 /* Pods-WJTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-WJTool_Example/Pods-WJTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0714BE7F96CA31259A98D5C /* Pods_WJTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0348A962F482032323F9A08 /* WJTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WJTool.podspec; path = ../WJTool.podspec; sourceTree = "<group>"; };
+		B0348A962F482032323F9A08 /* WJTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WJTool.podspec; path = ../WJTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5BAA0D1907D313962740DA4 /* Pods-WJTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-WJTool_Tests/Pods-WJTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				4F17C53F9216DB31B132927D /* Pods-WJTool_Tests.debug.xcconfig */,
 				E5BAA0D1907D313962740DA4 /* Pods-WJTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
