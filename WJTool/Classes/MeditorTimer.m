@@ -35,7 +35,7 @@
 
 - (void)work{
     
-    NSLog(@"正在计时中。。。。。。");
+    NSLog(@"正在计时中。。。。。。second");
 }
 
 - (void)dealloc{
