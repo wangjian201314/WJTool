@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WJTool_Example' do
+  pod 'WJTool', :path => '../'
+
+  target 'WJTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
